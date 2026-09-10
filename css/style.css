@@ -45,3 +45,4 @@ footer{width:1100px;margin:0 auto;background:#fff;padding:36px 0 44px}.footer-in
 .back-to-top{width:auto;padding:0;background:transparent;border:0;box-shadow:none;color:#08763f;border-radius:0}.back-to-top:hover{background:transparent;color:#0b9b50;transform:translateY(-2px)}
 .back-to-top{flex-direction:row;gap:5px;align-items:center;white-space:nowrap}.leaf-mark{flex-shrink:0}
 .back-to-top{right:24px;bottom:24px;padding:8px 4px;font-size:13px;line-height:1.2;gap:6px}.leaf-mark{width:27px;height:19px}
+.back-to-top{color:#52689a}.leaf-mark{background:#52689a}.back-to-top:hover{color:#334155}.back-to-top:hover .leaf-mark{background:#334155}
