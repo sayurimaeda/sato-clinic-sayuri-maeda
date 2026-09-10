@@ -38,3 +38,5 @@ footer{width:1100px;margin:0 auto;background:#fff;padding:36px 0 44px}.footer-in
  .footer-contact-list p:nth-child(2){margin-bottom:-4px}
 .news-more a,.medical-more a,.about-copy a{display:inline-block;width:164px;padding:4px 22px}
 .schedule-notes p:last-child{white-space:nowrap}
+.staff-row li{padding-left:3em;text-indent:-3em}
+.staff-row li:nth-child(3){padding-left:5em;text-indent:-5em}
