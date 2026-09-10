@@ -132,6 +132,8 @@
   </section>
 </main>
 
+<a class="back-to-top" href="#top" aria-label="トップへ戻る"><span>🍃</span>TOPへ</a>
+
 <footer>
   <div class="footer-inner">
     <div class="footer-contact-list">
@@ -144,5 +146,11 @@
     <p class="copyright">© SATO CLINIC</p>
   </div>
 </footer>
+<script>
+  const backToTop = document.querySelector('.back-to-top');
+  window.addEventListener('scroll', () => {
+    backToTop.classList.toggle('is-visible', window.scrollY > 300);
+  });
+</script>
 </body>
 </html>
