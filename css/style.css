@@ -46,3 +46,5 @@ footer{width:1100px;margin:0 auto;background:#fff;padding:36px 0 44px}.footer-in
 .back-to-top{flex-direction:row;gap:5px;align-items:center;white-space:nowrap}.leaf-mark{flex-shrink:0}
 .back-to-top{right:24px;bottom:24px;padding:8px 4px;font-size:13px;line-height:1.2;gap:6px}.leaf-mark{width:27px;height:19px}
 .back-to-top{color:#52689a}.leaf-mark{background:#52689a}.back-to-top:hover{color:#334155}.back-to-top:hover .leaf-mark{background:#334155}
+.back-to-top{padding:6px 10px;background:#52689a;color:#fff;border-radius:6px;box-shadow:0 2px 6px rgba(51,65,85,.25)}.back-to-top:hover{background:#334155;color:#fff}.leaf-mark{background:#fff;border-color:#fff}.leaf-mark::after{background:#52689a}.leaf-mark::before{background:#fff}.back-to-top:hover .leaf-mark{background:#fff}
+.back-to-top{padding:7px 12px;border:1px solid #fff;border-radius:999px;box-shadow:0 3px 8px rgba(51,65,85,.3);font-size:13px;letter-spacing:.08em}.back-to-top:hover{transform:translateY(-3px);box-shadow:0 5px 10px rgba(51,65,85,.35)}
