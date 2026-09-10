@@ -151,7 +151,7 @@
   window.addEventListener('scroll', () => {
     backToTop.classList.toggle('is-visible', window.scrollY > 300);
   });
-  const revealItems = document.querySelectorAll('.news-row, .medical-row, .staff-row, .greeting-grid, .about-copy');
+  const revealItems = document.querySelectorAll('.news-row, .medical-row, .staff-row, .greeting-grid, .about-copy, .access-grid, .hospital-wide, .departments, .schedule, .footer-inner');
   revealItems.forEach(item => item.classList.add('reveal'));
   const revealObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
