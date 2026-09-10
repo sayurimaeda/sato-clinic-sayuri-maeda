@@ -151,6 +151,17 @@
   window.addEventListener('scroll', () => {
     backToTop.classList.toggle('is-visible', window.scrollY > 300);
   });
+  const revealItems = document.querySelectorAll('.news-row, .medical-row, .staff-row, .greeting-grid, .about-copy');
+  revealItems.forEach(item => item.classList.add('reveal'));
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealItems.forEach(item => revealObserver.observe(item));
 </script>
 </body>
 </html>
